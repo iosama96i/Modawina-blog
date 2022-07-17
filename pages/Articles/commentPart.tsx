@@ -8,7 +8,7 @@ export function CommentArticle(props: ICommentArticleProps) {
 
   return (
     <div className="comments">
-      <h1 className="headingComment">Comments (3)</h1>
+      <h1 className="headingComment">.Comment (3)</h1>
       {/* comment */}
       {data.map((data,index: any): any => {
         return (
