@@ -1,0 +1,10 @@
+.hashtagsLinks{
+    @apply flex flex-col md:flex-row gap-[1rem] justify-between py-[1.25rem] border-b-[2px] border-LightGray;
+    & .hashtags{
+        @apply flex flex-wrap gap-[0.625rem];
+    
+    }
+    & .socialMedia{
+        @apply flex gap-[1.25rem];
+    }
+}

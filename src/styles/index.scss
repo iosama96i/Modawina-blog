@@ -1,0 +1,37 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+// Global styling
+@import'./global.scss';
+
+// layout (Navbar - footer- sidebar)
+@import'../components/navbar/navbar.scss';
+@import '../components/heroHeader/hero.scss';
+@import '../components/sideBar/sidebar.scss';
+@import '../components/footer/footer.scss';
+
+
+// component
+@import '../components/subHeader/subHeader.scss';
+@import '../components/breadcrumb/breadcrumb.scss';
+@import'../components/input/input.scss';
+
+// pages
+// home (page) 
+@import '../../pages/home/style/heighlight.scss';
+@import '../../pages/home/style/articles.scss';
+@import '../../pages/home/style/mostView.scss';
+
+
+// article (page)
+@import '../../pages/Articles/style/textArticle.scss';
+@import '../../pages/Articles/style/hashtagsLinks.scss';
+@import '../../pages/Articles/style/commentsPart.scss';
+@import '../../pages/Articles/style/validCommentForm.scss';
+
+
+// reports (page)
+@import '../../pages/report_studies/style/reportCards.scss';
+
+// validation 

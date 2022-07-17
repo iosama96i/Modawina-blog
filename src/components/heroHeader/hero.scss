@@ -1,0 +1,22 @@
+
+.Hero {
+  @apply relative h-[20rem] md:h-[30rem] w-full bg-[url('/imgs/peopleWorking.png')] bg-cover  bg-no-repeat overflow-hidden;
+//   background-image: url("../../assets/imgs/peopleWorking.png");
+
+ &::before{
+    @apply  absolute h-[30rem] w-full content-[''] top-0 left-0 bg-gradient-to-t from-black to-transparent opacity-90 blur-sm z-10;
+ }
+}
+.wrapperHero{
+    @apply flex flex-row justify-around items-center h-full w-full;
+
+   & .headingBlock{
+    @apply max-w-[350px] md:max-w-[800px] text-center z-10;
+    & h1{
+        @apply text-white text-[2rem] md:text-[3rem] font-bold mb-[0.938rem] ;
+    }
+    & p{
+        @apply text-white text-[1.1rem] md:text-[1.5rem] leading-9;
+    }
+}
+}

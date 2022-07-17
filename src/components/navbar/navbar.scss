@@ -1,0 +1,17 @@
+.Navbar{
+    @apply flex items-center lg:items-baseline gap-[3.18rem] justify-between px-[2rem] lg:px-[13.5rem] py-[1rem] bg-white border-b-black drop-shadow-md sticky left-0 -top-2 z-50;
+
+ &.logo{
+   @apply font-bold  md:text-[1.563rem];
+ }
+}
+.Wrapper{
+   @apply md:flex-1 flex justify-between items-center;
+}
+.Links{
+    @apply hidden md:flex gap-[1rem] lg:gap-[3.18rem];
+
+}
+.active {
+   @apply text-primary border-primary border-b-2; 
+}

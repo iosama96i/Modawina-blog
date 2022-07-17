@@ -1,0 +1,41 @@
+.newslatter {
+  @apply bg-WhityGray p-[2.5rem] flex flex-col items-center justify-center;
+
+  & div:first-child {
+    @apply mb-[1rem] md:mb-0 text-center;
+
+    & p:first-child {
+      @apply text-[1.25rem] font-denNormal my-[0.5rem];
+    }
+    & p:last-child {
+      @apply text-[1rem] mb-[1rem] text-BoldGray;
+    }
+  }
+}
+.emailLatter {
+  @apply flex flex-col md:flex-row;
+
+  & div {
+    @apply relative overflow-hidden;
+  }
+  & input {
+    @apply pr-[9rem] md:pr-[17.75rem] focus:outline-BoldGray focus:outline-[0.5px] rounded-md md:rounded-r-none md:rounded-l-md pl-[2.375rem] shadow-sm py-[0.625rem];
+  }
+  & svg {
+    @apply absolute content-[''] top-4 left-4;
+  }
+  & button {
+    @apply bg-primary hover:bg-LightOrange rounded-md md:rounded-l-none md:rounded-r-md py-[0.625rem] px-[4rem];
+  }
+}
+
+.smallFooter {
+  @apply flex flex-col gap-2 lg:gap-0 lg:flex-row justify-around py-[1.25rem] items-center;
+
+  & div:first-child {
+ 
+  }
+  & div:nth-child(2) {
+  @apply flex items-center gap-[1rem]
+    }
+}

@@ -1,0 +1,6 @@
+.reportHeading {
+  @apply text-center text-[1.5rem] md:text-[2.25rem] mb-[2.5rem];
+}
+.reportImgContainer{
+    @apply flex gap-[1.875rem] flex-wrap justify-center items-center;
+}

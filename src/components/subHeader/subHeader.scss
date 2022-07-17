@@ -1,0 +1,16 @@
+.subHeader {
+  @apply bg-[url("/imgs/Articlebg.png")] gap-[1rem] h-[12rem] md:h-[21rem] w-full flex flex-col items-start pt-[1.5rem] md:pt-[3.313rem] pl-[2rem] md:pl-[5rem] lg:pl-[13.438rem];
+
+  & .headerTitle {
+    @apply max-w-[40rem];
+    & h1 {
+      @apply text-white font-denBold text-[1.7rem] md:text-[3.125rem] leading-[2rem] md:leading-[4.625rem] cursor-default select-none;
+    }
+  }
+  & .picProfile {
+    @apply flex gap-[0.625rem] cursor-pointer items-center;
+    & p {
+      @apply text-white font-denLight;
+    }
+  }
+}

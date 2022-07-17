@@ -1,0 +1,8 @@
+.error {
+        .input {
+            @apply border-red-400 focus:border-red-400;
+        }
+        span {
+            @apply block text-red-600;
+        }
+    }

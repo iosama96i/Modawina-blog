@@ -1,0 +1,35 @@
+.ArticleImage {
+  @apply flex flex-col items-center gap-[1.25rem] mb-[1.875rem];
+
+  & img {
+    @apply w-full h-auto;
+  }
+}
+
+.article {
+  @apply my-[1.875rem];
+
+  & p:first-child {
+    @apply indent-2;
+  }
+  & p {
+    @apply leading-[1.5rem] mb-[1.875rem] text-BoldGray;
+  }
+  & p:last-child {
+    @apply mb-0;
+  }
+  & h3 {
+    @apply text-[1.5rem] border-l-[2px] border-primary pl-[8px] mb-[1.875rem];
+  }
+  & img {
+    @apply w-full h-auto my-[1.875rem];
+  }
+  & ul {
+    & li {
+      @apply mx-6 text-BoldGray mb-4;
+    }
+  }
+  &a {
+    @apply leading-[1.5rem]  text-BoldGray border-b-[2px] border-primary;
+  }
+}

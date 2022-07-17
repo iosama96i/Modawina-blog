@@ -1,0 +1,32 @@
+.heighlight{
+    @apply flex flex-row justify-between items-baseline mb-[15px] md:mb-[23px] max-w-[67.5rem];
+
+    & h4{
+        @apply flex-1 text-[1.2rem] md:text-[1.5rem] font-bold text-BoldBlack ;
+    }
+    & p{
+        @apply relative text-LightBlack after:absolute after:content-['>'] after:-right-3 hover:border-b-[1px] hover:border-primary cursor-pointer after:text-primary;
+    }
+}
+.heighlightContainer{
+    @apply flex flex-row gap-[1.875rem] overflow-x-auto max-w-[67.5rem];
+}
+.heighlightImg{
+    @apply relative min-w-[270px] overflow-hidden;
+    & img {
+        @apply w-full h-auto;
+    }
+    & .textContainer{
+        @apply text-left w-full absolute bottom-0 px-[1rem] pb-[1rem];
+        
+        & p:first-child{
+            @apply text-white text-[1.125rem];
+        }
+        & p:nth-child(2){
+            @apply text-white inline font-denLight leading-6 cursor-pointer hover:border-b-[1px] hover:border-white;
+        }
+        & p:last-child{
+            @apply text-white font-denLight text-[0.875rem];
+        }
+    }
+}

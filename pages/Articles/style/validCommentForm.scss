@@ -1,0 +1,19 @@
+.validCommentForm {
+  @apply mt-[1.25rem];
+
+  & .textArea {
+    @apply w-full resize-none mt-2 p-[0.725rem] outline outline-NormalGray h-[124px] outline-1 rounded-sm focus:outline-LightBlack;
+  }
+
+  & .groupInput {
+    @apply flex flex-col md:flex-row gap-[15px] mt-[15px];
+
+    & .formInput {
+      @apply flex flex-col flex-1;
+    
+    & .inputField{
+     @apply mt-2 p-3 outline outline-1 outline-NormalGray rounded-sm focus:outline-LightBlack;   
+    }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+.comments {
+  @apply pt-[1.875rem];
+
+  &.headingComment {
+    @apply border-l-[2px] border-primary pl-[8px] text-[1.25rem] cursor-default;
+  }
+
+  & .comment {
+    @apply mt-[20px] border-b-[2px] pb-[1.25rem];
+
+    & .containerComment {
+      @apply flex justify-between mb-[8px];
+
+      & h5 {
+        @apply text-[1.125rem];
+      }
+      & p {
+        @apply text-BoldGray;
+      }
+    }
+  }
+  & .paraghraph {
+    @apply text-BoldGray;
+  }
+  & .comment:last-child {
+    @apply border-b-0;
+  }
+}

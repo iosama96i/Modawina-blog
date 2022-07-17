@@ -1,0 +1,10 @@
+.breadCrumb{
+    @apply flex gap-2 items-baseline justify-center;
+
+    & p{
+        @apply capitalize text-primary after:content-["/"] after:ml-1 cursor-pointer;
+    }
+    & p:last-child{
+        @apply text-white cursor-default after:content-[''] after:ml-0;
+    }
+}
